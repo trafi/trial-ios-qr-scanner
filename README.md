@@ -4,7 +4,7 @@ Trafi decided to make it easier for the users to rent a micromobility vehicles (
 
 ## Goal
 
-Write the logic for the QR scanner flow for an iOS app.
+Write the logic for the QR scanner flow for an iOS app using Trafi's [state pattern](https://github.com/trafi/states).
 
 Your goal is to write correct and robust logic that correctly handles both the happy case and any errors. We will not be evaluating your UI or design chops.
 
@@ -14,6 +14,9 @@ Our designer has provided the following designs.
 |:--:|:--:|
 ![](sample/scanner.png)    |  ![](sample/entry.png)
 
+- We don't expect you to write UI code;
+- We don't expect you to write networking code;
+- We don't expect you to create VC transitions;
 
 ## Requirements
 
