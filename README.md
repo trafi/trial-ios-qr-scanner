@@ -20,7 +20,7 @@ Our designer has provided the following designs.
 - Be sure to send scanned data and handle happy/unhappy paths' responses;
 - The application should direct user to vehicle if code is recognized by the backend;
 - If the user scans unknown vehicle we should show the error about unrecognized vehicle provider (alert is fine) and offer user to perform manual entry and provider selection;
-- The QR scanners can encode plain numbers/characters and complete URLs. Be sure to encode URL if you recognized one in the QR code;
+- QR content can contain plain numbers/characters and complete URLs;
 - Swift 5+
 - iOS 12+ support
 - iPhone
